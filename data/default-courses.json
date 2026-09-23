@@ -1,0 +1,326 @@
+[
+  {
+    "courseId": "manejo-defensivo",
+    "number": "01.1",
+    "icon": "↗",
+    "theme": "#ffb43b",
+    "themeSoft": "#fff0d3",
+    "title": "Manejo defensivo",
+    "category": "Seguridad vial",
+    "duration": "35 min",
+    "description": "Anticipación de riesgos, conducción preventiva y toma segura de decisiones.",
+    "videoUrl": "https://www.youtube.com/watch?v=BRmNTGTykWk",
+    "learn": [
+      "Reconocer riesgos antes de que se conviertan en incidentes.",
+      "Aplicar una distancia y velocidad seguras.",
+      "Tomar mejores decisiones ante condiciones adversas."
+    ],
+    "questions": [
+      {
+        "prompt": "¿Cuál es el propósito principal del manejo defensivo?",
+        "options": [
+          "Conducir más rápido",
+          "Anticipar riesgos y evitar incidentes",
+          "Usar siempre la ruta más corta"
+        ]
+      },
+      {
+        "prompt": "Antes de iniciar un recorrido se debe:",
+        "options": [
+          "Revisar el vehículo y planificar la ruta",
+          "Encender las luces altas",
+          "Aumentar la velocidad"
+        ]
+      },
+      {
+        "prompt": "La distancia de seguridad permite:",
+        "options": [
+          "Reducir el consumo a cero",
+          "Tener tiempo para reaccionar",
+          "Evitar el uso de espejos"
+        ]
+      },
+      {
+        "prompt": "Ante condiciones adversas lo correcto es:",
+        "options": [
+          "Mantener la misma velocidad",
+          "Reducir velocidad y aumentar distancia",
+          "Frenar bruscamente"
+        ]
+      }
+    ],
+    "sortOrder": 1,
+    "isCustom": false,
+    "active": true
+  },
+  {
+    "courseId": "sgsst",
+    "number": "02.1",
+    "icon": "+",
+    "theme": "#15a58d",
+    "themeSoft": "#dff7f1",
+    "title": "Inducción al SG-SST",
+    "category": "Seguridad y salud",
+    "duration": "40 min",
+    "description": "Conceptos esenciales, responsabilidades y prácticas de prevención en el trabajo.",
+    "videoUrl": "https://www.youtube.com/@alcotransco",
+    "learn": [
+      "Identificar peligros y riesgos del entorno laboral.",
+      "Reconocer responsabilidades dentro del SG-SST.",
+      "Activar los canales de reporte oportunamente."
+    ],
+    "questions": [
+      {
+        "prompt": "¿Qué busca principalmente el SG-SST?",
+        "options": [
+          "Prevenir lesiones y enfermedades laborales",
+          "Aumentar los horarios",
+          "Reemplazar los contratos"
+        ]
+      },
+      {
+        "prompt": "Un peligro es:",
+        "options": [
+          "Una fuente con potencial de causar daño",
+          "Un informe mensual",
+          "Una incapacidad médica"
+        ]
+      },
+      {
+        "prompt": "Los incidentes deben:",
+        "options": [
+          "Ocultarse",
+          "Reportarse oportunamente",
+          "Informarse solo al final del año"
+        ]
+      },
+      {
+        "prompt": "La prevención es responsabilidad de:",
+        "options": [
+          "Solo la gerencia",
+          "Solo el área de SST",
+          "Todas las personas de la organización"
+        ]
+      }
+    ],
+    "sortOrder": 2,
+    "isCustom": false,
+    "active": true
+  },
+  {
+    "courseId": "extintores",
+    "number": "02.2",
+    "icon": "◇",
+    "theme": "#ef6557",
+    "themeSoft": "#ffe5e1",
+    "title": "Manejo de extintores",
+    "category": "Seguridad y salud",
+    "duration": "25 min",
+    "description": "Identificación, inspección y uso seguro de extintores ante una emergencia.",
+    "videoUrl": "https://www.youtube.com/watch?v=KDJJqc0sVO8",
+    "learn": [
+      "Distinguir las clases de fuego.",
+      "Seleccionar y revisar el extintor adecuado.",
+      "Actuar sin exponerse a un riesgo mayor."
+    ],
+    "questions": [
+      {
+        "prompt": "Antes de usar un extintor debes:",
+        "options": [
+          "Identificar el tipo de fuego",
+          "Abrir todas las ventanas",
+          "Ubicarte contra el viento"
+        ]
+      },
+      {
+        "prompt": "La descarga debe dirigirse:",
+        "options": [
+          "A la base del fuego",
+          "Al humo",
+          "Al techo"
+        ]
+      },
+      {
+        "prompt": "Un extintor debe revisarse:",
+        "options": [
+          "Solo después de usarlo",
+          "Periódicamente",
+          "Nunca si está sellado"
+        ]
+      },
+      {
+        "prompt": "Si el fuego crece debes:",
+        "options": [
+          "Continuar sin pedir ayuda",
+          "Evacuar y activar emergencias",
+          "Acercarte más"
+        ]
+      }
+    ],
+    "sortOrder": 3,
+    "isCustom": false,
+    "active": true
+  },
+  {
+    "courseId": "convivencia",
+    "number": "03.1",
+    "icon": "◎",
+    "theme": "#8065d8",
+    "themeSoft": "#eee9ff",
+    "title": "Convivencia laboral",
+    "category": "Bienestar",
+    "duration": "30 min",
+    "description": "Buenas relaciones, prevención del acoso y rutas para gestionar situaciones laborales.",
+    "videoUrl": "https://www.youtube.com/@alcotransco",
+    "learn": [
+      "Practicar una comunicación clara y respetuosa.",
+      "Reconocer señales que afectan la convivencia.",
+      "Usar las rutas institucionales de atención."
+    ],
+    "questions": [
+      {
+        "prompt": "La comunicación asertiva implica:",
+        "options": [
+          "Agredir para ser escuchado",
+          "Expresar ideas con respeto y claridad",
+          "Evitar siempre el diálogo"
+        ]
+      },
+      {
+        "prompt": "Un conflicto laboral debe abordarse:",
+        "options": [
+          "Con diálogo y canales definidos",
+          "Con rumores",
+          "Ignorándolo siempre"
+        ]
+      },
+      {
+        "prompt": "El respeto en el trabajo favorece:",
+        "options": [
+          "La confianza y colaboración",
+          "La desinformación",
+          "El aislamiento"
+        ]
+      },
+      {
+        "prompt": "Ante una posible situación de acoso se debe:",
+        "options": [
+          "Usar la ruta institucional",
+          "Responder con amenazas",
+          "Publicarla en redes"
+        ]
+      }
+    ],
+    "sortOrder": 4,
+    "isCustom": false,
+    "active": true
+  },
+  {
+    "courseId": "servicio-cliente",
+    "number": "04.1",
+    "icon": "✦",
+    "theme": "#2778d5",
+    "themeSoft": "#e1efff",
+    "title": "Servicio al cliente",
+    "category": "Desarrollo",
+    "duration": "30 min",
+    "description": "Comunicación, escucha activa y manejo profesional de necesidades y reclamos.",
+    "videoUrl": "https://www.youtube.com/@alcotransco",
+    "learn": [
+      "Comprender la necesidad antes de responder.",
+      "Gestionar reclamos con claridad y empatía.",
+      "Cerrar cada caso con un siguiente paso."
+    ],
+    "questions": [
+      {
+        "prompt": "Escuchar activamente significa:",
+        "options": [
+          "Interrumpir para responder",
+          "Comprender antes de responder",
+          "Evitar preguntas"
+        ]
+      },
+      {
+        "prompt": "Ante una queja lo primero es:",
+        "options": [
+          "Escuchar y aclarar la situación",
+          "Culpar a otra área",
+          "Cerrar la conversación"
+        ]
+      },
+      {
+        "prompt": "Una respuesta de calidad debe ser:",
+        "options": [
+          "Clara, respetuosa y oportuna",
+          "Extensa y ambigua",
+          "Informal siempre"
+        ]
+      },
+      {
+        "prompt": "Si no puedes resolver de inmediato debes:",
+        "options": [
+          "Prometer algo imposible",
+          "Explicar el siguiente paso y hacer seguimiento",
+          "Ignorar el caso"
+        ]
+      }
+    ],
+    "sortOrder": 5,
+    "isCustom": false,
+    "active": true
+  },
+  {
+    "courseId": "pausas-activas",
+    "number": "05.1",
+    "icon": "≈",
+    "theme": "#e46a9b",
+    "themeSoft": "#ffe4ef",
+    "title": "Pausas activas",
+    "category": "Bienestar",
+    "duration": "20 min",
+    "description": "Hábitos breves de movimiento para reducir fatiga y promover el bienestar.",
+    "videoUrl": "https://www.youtube.com/@alcotransco",
+    "learn": [
+      "Reconocer cuándo el cuerpo necesita una pausa.",
+      "Realizar movimientos breves y seguros.",
+      "Integrar descansos activos a la jornada."
+    ],
+    "questions": [
+      {
+        "prompt": "Las pausas activas ayudan a:",
+        "options": [
+          "Reducir fatiga física y mental",
+          "Reemplazar el descanso nocturno",
+          "Evitar toda actividad física"
+        ]
+      },
+      {
+        "prompt": "Una pausa activa debe ser:",
+        "options": [
+          "Breve y periódica",
+          "Solo una vez al mes",
+          "Dolorosa"
+        ]
+      },
+      {
+        "prompt": "Durante la pausa se recomienda:",
+        "options": [
+          "Movilidad suave y respiración",
+          "Movimientos bruscos",
+          "Seguir en la misma postura"
+        ]
+      },
+      {
+        "prompt": "Si un ejercicio causa dolor debes:",
+        "options": [
+          "Forzarlo",
+          "Suspenderlo y consultar si persiste",
+          "Duplicar el tiempo"
+        ]
+      }
+    ],
+    "sortOrder": 6,
+    "isCustom": false,
+    "active": true
+  }
+]
