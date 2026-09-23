@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#092f3a">
+  <meta name="description" content="Plataforma de capacitación, evaluación y emisión de certificados verificables.">
+  <title>Certifica+ | Formación y certificados</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23092f3a'/%3E%3Cpath d='M20 18h24v28H20z' fill='none' stroke='%23f7b23b' stroke-width='4'/%3E%3Cpath d='m25 32 5 5 10-12' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Certifica+, inicio">
+        <span class="brand-mark" aria-hidden="true">C+</span>
+        <span><strong>Certifica+</strong><small>Formación empresarial</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menú</button>
+      <nav id="mainNav" aria-label="Navegación principal">
+        <a href="#cursos">Cursos</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#verificar">Validar certificado</a>
+      </nav>
+      <button class="button button-small button-outline desktop-action" id="installAppButton" type="button" hidden>Instalar app</button>
+    </header>
+
+    <main id="homeView">
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <span class="eyebrow">Capacitación · Evaluación · Certificación</span>
+          <h1>Todo el proceso formativo, en un solo lugar.</h1>
+          <p>Selecciona un curso, aprueba la evaluación y obtén un certificado verificable desde cualquier dispositivo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#cursos">Explorar cursos</a>
+            <a class="button button-ghost" href="#verificar">Validar un certificado <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="trust-row" aria-label="Características principales">
+            <span><b>✓</b> Evaluación inmediata</span>
+            <span><b>✓</b> Código único</span>
+            <span><b>✓</b> Descarga en PDF</span>
+          </div>
+        </div>
+        <aside class="process-card" aria-label="Estado del proceso">
+          <div class="process-card-head">
+            <div>
+              <span class="micro-label">RUTA DE CERTIFICACIÓN</span>
+              <h2>Tu avance</h2>
+            </div>
+            <span class="status-pill">Disponible</span>
+          </div>
+          <ol class="progress-list">
+            <li class="active"><span>01</span><div><strong>Elige tu curso</strong><small>Encuentra la capacitación que necesitas.</small></div></li>
+            <li><span>02</span><div><strong>Completa la evaluación</strong><small>Aprueba con un resultado mínimo del 80%.</small></div></li>
+            <li><span>03</span><div><strong>Recibe tu certificado</strong><small>Descárgalo y consúltalo con su código.</small></div></li>
+          </ol>
+          <div class="mini-certificate" aria-hidden="true">
+            <div class="mini-seal">✓</div>
+            <div><small>CERTIFICADO DIGITAL</small><strong>Formación completada</strong><span>Código único verificable</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section courses-section" id="cursos">
+        <div class="section-heading split-heading">
+          <div>
+            <span class="section-index">01 · EXPLORA</span>
+            <span class="eyebrow dark">Oferta formativa</span>
+            <h2>Elige una capacitación</h2>
+            <p>Cada curso abre un espacio propio con su video, códigos de atención, evaluación y certificado.</p>
+          </div>
+          <div class="catalog-tools">
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <span class="sr-only">Buscar curso</span>
+              <input id="courseSearch" type="search" placeholder="Buscar un curso...">
+            </label>
+          </div>
+        </div>
+        <div class="filter-row" id="filterRow" aria-label="Filtrar por categoría">
+          <button type="button" class="active" data-category="Todos">Todos</button>
+          <button type="button" data-category="Seguridad vial">Seguridad vial</button>
+          <button type="button" data-category="Seguridad y salud">Seguridad y salud</button>
+          <button type="button" data-category="Bienestar">Bienestar</button>
+          <button type="button" data-category="Desarrollo">Desarrollo</button>
+        </div>
+        <div class="course-grid" id="courseGrid">
+          <article class="course-card reveal visible" style="--course-accent:#ffb43b;--course-soft:#fff0d3">
+            <div class="course-card-glow" aria-hidden="true"></div><div class="course-top"><span class="course-number">01.1</span><span class="course-icon">↗</span></div><span class="course-category">Seguridad vial</span><h3>Manejo defensivo</h3><p>Anticipación de riesgos, conducción preventiva y toma segura de decisiones.</p><div class="course-card-foot"><span>35 min · 4 preguntas</span><a href="#curso/manejo-defensivo" data-course="manejo-defensivo" aria-label="Abrir curso Manejo defensivo">Entrar <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card reveal visible" style="--course-accent:#15a58d;--course-soft:#dff7f1">
+            <div class="course-card-glow" aria-hidden="true"></div><div class="course-top"><span class="course-number">02.1</span><span class="course-icon">+</span></div><span class="course-category">Seguridad y salud</span><h3>Inducción al SG-SST</h3><p>Conceptos esenciales, responsabilidades y prácticas de prevención en el trabajo.</p><div class="course-card-foot"><span>40 min · 4 preguntas</span><a href="#curso/sgsst" data-course="sgsst" aria-label="Abrir curso Inducción al SG-SST">Entrar <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card reveal visible" style="--course-accent:#ef6557;--course-soft:#ffe5e1">
+            <div class="course-card-glow" aria-hidden="true"></div><div class="course-top"><span class="course-number">02.2</span><span class="course-icon">◇</span></div><span class="course-category">Seguridad y salud</span><h3>Manejo de extintores</h3><p>Identificación, inspección y uso seguro de extintores ante una emergencia.</p><div class="course-card-foot"><span>25 min · 4 preguntas</span><a href="#curso/extintores" data-course="extintores" aria-label="Abrir curso Manejo de extintores">Entrar <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card reveal visible" style="--course-accent:#8065d8;--course-soft:#eee9ff">
+            <div class="course-card-glow" aria-hidden="true"></div><div class="course-top"><span class="course-number">03.1</span><span class="course-icon">◎</span></div><span class="course-category">Bienestar</span><h3>Convivencia laboral</h3><p>Buenas relaciones, prevención del acoso y rutas para gestionar situaciones laborales.</p><div class="course-card-foot"><span>30 min · 4 preguntas</span><a href="#curso/convivencia" data-course="convivencia" aria-label="Abrir curso Convivencia laboral">Entrar <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card reveal visible" style="--course-accent:#2778d5;--course-soft:#e1efff">
+            <div class="course-card-glow" aria-hidden="true"></div><div class="course-top"><span class="course-number">04.1</span><span class="course-icon">✦</span></div><span class="course-category">Desarrollo</span><h3>Servicio al cliente</h3><p>Comunicación, escucha activa y manejo profesional de necesidades y reclamos.</p><div class="course-card-foot"><span>30 min · 4 preguntas</span><a href="#curso/servicio-cliente" data-course="servicio-cliente" aria-label="Abrir curso Servicio al cliente">Entrar <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="course-card reveal visible" style="--course-accent:#e46a9b;--course-soft:#ffe4ef">
+            <div class="course-card-glow" aria-hidden="true"></div><div class="course-top"><span class="course-number">05.1</span><span class="course-icon">≈</span></div><span class="course-category">Bienestar</span><h3>Pausas activas</h3><p>Hábitos breves de movimiento para reducir fatiga y promover el bienestar.</p><div class="course-card-foot"><span>20 min · 4 preguntas</span><a href="#curso/pausas-activas" data-course="pausas-activas" aria-label="Abrir curso Pausas activas">Entrar <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+        <p class="empty-state" id="emptyCourses" hidden>No encontramos cursos con esa búsqueda.</p>
+      </section>
+
+      <section class="section how-section" id="como-funciona">
+        <div class="section-heading centered">
+          <span class="section-index light">02 · AVANZA</span>
+          <span class="eyebrow dark">Proceso simple</span>
+          <h2>Del aprendizaje al certificado</h2>
+          <p>Un recorrido claro que conserva el resultado de la evaluación y facilita la verificación.</p>
+        </div>
+        <div class="steps-grid">
+          <article><span class="step-icon">01</span><h3>Selecciona</h3><p>Revisa la información del curso y confirma que completaste el contenido.</p></article>
+          <article><span class="step-icon">02</span><h3>Responde</h3><p>Presenta una evaluación corta. El sistema calcula el resultado al instante.</p></article>
+          <article><span class="step-icon">03</span><h3>Certifícate</h3><p>Si apruebas, registra tus datos y genera un certificado con código único.</p></article>
+        </div>
+      </section>
+
+      <section class="verify-section" id="verificar">
+        <div class="verify-copy">
+          <span class="section-index light">03 · COMPRUEBA</span>
+          <span class="eyebrow">Consulta pública</span>
+          <h2>Valida un certificado en segundos</h2>
+          <p>Ingresa el código que aparece en el documento para confirmar su autenticidad y consultar los datos asociados.</p>
+          <div class="demo-code">Para probar esta versión usa: <button type="button" id="copyDemoCode">CERT-DEMO-2026</button></div>
+        </div>
+        <form class="verify-card" id="verifyForm">
+          <label for="certificateCode">Código del certificado</label>
+          <div class="verify-input-row">
+            <input id="certificateCode" autocomplete="off" placeholder="Ej. CERT-AB12-2026" required>
+            <button class="button button-primary" type="submit">Verificar</button>
+          </div>
+          <div id="verifyResult" class="verify-result" aria-live="polite"></div>
+        </form>
+      </section>
+    </main>
+
+    <main id="courseView" class="course-page" hidden aria-live="polite"></main>
+
+    <footer>
+      <div class="footer-brand"><span class="brand-mark">C+</span><div><strong>Certifica+</strong><small>Formación y certificación digital</small></div></div>
+      <p>Plataforma preparada para funcionar desde GitHub y sincronizarse con Firebase.</p>
+      <a href="#inicio">Volver arriba ↑</a>
+    </footer>
+  </div>
+
+  <button class="assistant-button" id="assistantButton" aria-expanded="false" aria-controls="assistantPanel"><span>?</span> Ayuda</button>
+  <aside class="assistant-panel" id="assistantPanel" hidden aria-label="Asistente de certificados">
+    <div class="assistant-head"><div><strong>Asistente de certificados</strong><small>Respuesta automática</small></div><button id="closeAssistant" aria-label="Cerrar asistente">×</button></div>
+    <div class="assistant-body" id="assistantBody">
+      <p class="bot-message">Hola. ¿En qué parte del proceso necesitas ayuda?</p>
+      <button data-answer="Elige un curso, abre el video en YouTube y anota los tres códigos que aparecerán durante la reproducción.">¿Cómo comienzo?</button>
+      <button data-answer="Debes obtener al menos 80%. Si no apruebas, puedes volver a intentarlo.">¿Qué puntaje necesito?</button>
+      <button data-answer="Al volver del video, ingresa los tres códigos. Si coinciden, se habilitará la evaluación.">¿Para qué sirven los códigos?</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
